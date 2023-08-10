@@ -11,6 +11,11 @@ font-family: 'Work Sans', sans-serif;
     display: flex;
     align-items: left;
 }
+.logo{
+    display: flex;
+    align-items: center;
+
+}
 .container ul, li{
 display: flex;   
 }
@@ -84,7 +89,7 @@ margin-left: 240px;
     display: flex;
     align-items: center;
     margin-left: 244px;
-    margin-top: 33px; 
+    margin-top: 103px; 
 }
 .play-games2{
     position: relative;
@@ -108,7 +113,20 @@ margin-left: 240px;
     align-items: center;
 }
 .footer{
-    margin-left: 1040px;
-    margin-top: 90px;
+    margin-top: 30px;
     display: flex;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.icon-name{
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    margin: 10px auto;
+}
+
+.footer.copy{
+    color: #FFF;
 }
